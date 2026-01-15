@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+
+        form {
+            display: inline-block;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            background-color: yellowgreen;
+            border: solid red;
+        }
+
+        input[type="submit"] {
+            background-color: whitesmoke;
+            border: bold red;
+        }
+
+        .note {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Student registration form</h1>
+
+<form>
+    Full Name:<br>
+    <input type="text"><br>
+    <span class="note">Must contain 5–30 letters</span><br><br>
+
+    Email:<br>
+    <input type="email"><br>
+    <span class="note">Valid email required</span><br><br>
+
+    Password:<br>
+    <input type="password"><br>
+    <span class="note">Strong password required</span><br><br>
+
+    <input type="submit" value="Register"><br>
+</form>
+
+</body>
+</html>
